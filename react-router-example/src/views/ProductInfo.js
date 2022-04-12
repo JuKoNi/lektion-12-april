@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
 function ProductInfo() {
-    const { id } = useParams();
+    const { id } = useParams(); // Hämtar id:et från url:en
     console.log(id);
     const [book, setBook] = useState({});
 
