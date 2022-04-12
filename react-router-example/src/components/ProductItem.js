@@ -1,12 +1,9 @@
 import './ProductItem.css';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 function ProductItem(props) {
     const { product } = props;
-    const path = `/produkt/${product.id}`
-
-
-
+    const path = `/produkt/${product.id}`;
 
     return (
         <article className='product-item'>
